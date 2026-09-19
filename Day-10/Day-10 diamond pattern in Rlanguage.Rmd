@@ -1,0 +1,15 @@
+```{r}
+n <- 5
+for (i in 1:n) {
+  cat(strrep(" ", n - i))
+  cat(strrep("* ", i))
+  cat("\n")
+}
+
+for (i in (n - 1):1) {
+  cat(strrep(" ", n - i))
+  cat(strrep("* ", i))
+  cat("\n")
+}
+```
+
